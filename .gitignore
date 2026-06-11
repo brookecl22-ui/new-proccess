@@ -1,0 +1,43 @@
+# ==========================================
+# BLENDER
+# ==========================================
+
+# Blender auto-saves, backups, and crash logs
+*.blend[0-9]*
+*.blend@
+*.crash.txt
+*.bmap
+
+# Temporary directories and render outputs
+/tmp/
+/temp/
+/renders/
+/render_output/
+
+# ==========================================
+# ANCHORPOINT
+# ==========================================
+# Note: Anchorpoint manages metadata in the cloud, but keeps a `.approj` 
+# file and sometimes an `.ap/` config folder locally. Do NOT ignore these, 
+# as they are required for the workspace to function correctly for the team.
+
+# ==========================================
+# OS GENERATED FILES
+# ==========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
